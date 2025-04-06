@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.rounded-3 { background-color: #F6762C; }
+[href="#"] { text-decoration: none; transition: .3s; &:hover { color: #fff !important; } }
+body {
+    background: fixed url("../img/main.png") no-repeat top center / cover;
+    background-position: top;
+    font-family: "Roboto";
+}
+#particles-js {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+}
+p { color: darken($color: #fff, $amount: 25%); }
+.navbar-toggler {
+    &:focus { box-shadow: none !important; } }
+.navbar-toggler-icon { background-image: url("../img/text-align-justified.svg"); }
+header { backdrop-filter: blur(7px); }
+section, footer {
+    background: #1C1C1C;
+    &#burger, &#download { background-color: #312F30; }
+    .fw-medium {
+        letter-spacing: 10%;
+    }
+    h1 {
+        font-size: 53.33px;
+    }
+    &#cards { .text-center { background-color: #312F30; width: min(313px, 100%); } } 
+        &#menu {
+            p {
+                width: 85%;
+            }
+            .d-flex {
+                width: min(100%, 635px);
+                @media (width < 1400px) {
+                    width: min(100%, 555px);
+                }
+                @media (width < 1200px) {
+                    width: min(100%, 455px);
+                }
+                &:nth-child(1), &:nth-child(3) {
+                    .py-5 { 
+                        @media (max-width: 1400px) { width: min(100%, 236.91px); }
+                        @media (max-width: 1200px) { width: min(100%, 186.91px); } 
+                    }
+                }
+                &:nth-child(1) { background: url("../img/products/product-1.png") no-repeat center center / cover; }
+                &:nth-child(2) { background: url("../img/products/product-2.png") no-repeat center center / cover; }
+                &:nth-child(3) { background: url("../img/products/product-3.png") no-repeat center center / cover; }
+                &:nth-child(4) { background: url("../img/products/product-4.png") no-repeat center center / cover; }
+            }
+        }
+        &#download { margin-top: -.53px; }
+}
+.fs-5 { color: #F6762C; s { color: #d35400; } }
+.text-decoration-none { background-color: #F6762C; }
+footer {
+    margin-top: -.5px;
+    img { width: 72px; }
+    [href="https://fastfood_usa@gmail.com/"] { margin-bottom: 10px; display: inline-block; }
+    a, a span { color: darken($color: #fff, $amount: 25%); }
+    .d-inline-block, a svg { margin-right: 3px; }
+    ul li { 
+        margin-top: 10px;
+        a {
+            transition: color .3s;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    
+}

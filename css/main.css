@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.rounded-3 {
+  background-color: #F6762C;
+}
+
+[href="#"] {
+  text-decoration: none;
+  transition: 0.3s;
+}
+[href="#"]:hover {
+  color: #fff !important;
+}
+
+body {
+  background: fixed url("../img/main.png") no-repeat top center/cover;
+  background-position: top;
+  font-family: "Roboto";
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+p {
+  color: #bfbfbf;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/text-align-justified.svg");
+}
+
+header {
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+
+section, footer {
+  background: #1C1C1C;
+}
+section#burger, section#download, footer#burger, footer#download {
+  background-color: #312F30;
+}
+section .fw-medium, footer .fw-medium {
+  letter-spacing: 10%;
+}
+section h1, footer h1 {
+  font-size: 53.33px;
+}
+section#cards .text-center, footer#cards .text-center {
+  background-color: #312F30;
+  width: min(313px, 100%);
+}
+section#menu p, footer#menu p {
+  width: 85%;
+}
+section#menu .d-flex, footer#menu .d-flex {
+  width: min(100%, 635px);
+}
+@media (width < 1400px) {
+  section#menu .d-flex, footer#menu .d-flex {
+    width: min(100%, 555px);
+  }
+}
+@media (width < 1200px) {
+  section#menu .d-flex, footer#menu .d-flex {
+    width: min(100%, 455px);
+  }
+}
+@media (max-width: 1400px) {
+  section#menu .d-flex:nth-child(1) .py-5, section#menu .d-flex:nth-child(3) .py-5, footer#menu .d-flex:nth-child(1) .py-5, footer#menu .d-flex:nth-child(3) .py-5 {
+    width: min(100%, 236.91px);
+  }
+}
+@media (max-width: 1200px) {
+  section#menu .d-flex:nth-child(1) .py-5, section#menu .d-flex:nth-child(3) .py-5, footer#menu .d-flex:nth-child(1) .py-5, footer#menu .d-flex:nth-child(3) .py-5 {
+    width: min(100%, 186.91px);
+  }
+}
+section#menu .d-flex:nth-child(1), footer#menu .d-flex:nth-child(1) {
+  background: url("../img/products/product-1.png") no-repeat center center/cover;
+}
+section#menu .d-flex:nth-child(2), footer#menu .d-flex:nth-child(2) {
+  background: url("../img/products/product-2.png") no-repeat center center/cover;
+}
+section#menu .d-flex:nth-child(3), footer#menu .d-flex:nth-child(3) {
+  background: url("../img/products/product-3.png") no-repeat center center/cover;
+}
+section#menu .d-flex:nth-child(4), footer#menu .d-flex:nth-child(4) {
+  background: url("../img/products/product-4.png") no-repeat center center/cover;
+}
+section#download, footer#download {
+  margin-top: -0.53px;
+}
+
+.fs-5 {
+  color: #F6762C;
+}
+.fs-5 s {
+  color: #d35400;
+}
+
+.text-decoration-none {
+  background-color: #F6762C;
+}
+
+footer {
+  margin-top: -0.5px;
+}
+footer img {
+  width: 72px;
+}
+footer [href="https://fastfood_usa@gmail.com/"] {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+footer a, footer a span {
+  color: #bfbfbf;
+}
+footer .d-inline-block, footer a svg {
+  margin-right: 3px;
+}
+footer ul li {
+  margin-top: 10px;
+}
+footer ul li a {
+  transition: color 0.3s;
+}
+footer ul li a:hover {
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
