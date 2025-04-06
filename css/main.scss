@@ -22,13 +22,6 @@ body {
 [data-animate-delay=".5"] { animation-delay: 500ms; }
 [data-animate-delay=".7"] { animation-delay: 700ms; }
 [data-animate-delay=".9"] { animation-delay: 900ms; }
-#particles-js {
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    height: 100vh;
-    width: 100%;
-}
 p { color: darken($color: #fff, $amount: 25%); }
 .navbar-toggler {
     &:focus { box-shadow: none !important; } }
