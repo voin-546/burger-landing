@@ -6,6 +6,22 @@ body {
     background-position: top;
     font-family: "Roboto";
 }
+[data-animate] {
+    animation: fadeUp 1200ms ease backwards;
+    @keyframes fadeUp {
+        0% {
+            transform: translate(0, 100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+    }
+}
+[data-animate-delay=".5"] { animation-delay: 500ms; }
+[data-animate-delay=".7"] { animation-delay: 700ms; }
+[data-animate-delay=".9"] { animation-delay: 900ms; }
 #particles-js {
     position: absolute;
     top: 0;
